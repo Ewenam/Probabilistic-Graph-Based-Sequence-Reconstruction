@@ -14,8 +14,6 @@ kraken_db_standard/
 *.npy
 *.zip
 
-# Pipeline results (regenerable)
-project_out/
 
 # Build / IDE artefacts
 *.log
