@@ -1,12 +1,25 @@
 # .gitignore
-# Ignore raw/large data and results
+# Large data — not tracked in git
 *.fastq
 *.fastq.gz
-*.log
+*.fa
+*.fasta
+*.fna
+data/fastas/
+data/reports/
+cleaned_data/
+kraken_db_standard/
+
+# Large binary outputs
+*.npy
 *.zip
+
+# Pipeline results (regenerable)
+project_out/
+
+# Build / IDE artefacts
+*.log
 *.html
 __pycache__/
-project_out/
-cleaned_data/
-*.ipynb_checkpoints
 *.pyc
+.ipynb_checkpoints/

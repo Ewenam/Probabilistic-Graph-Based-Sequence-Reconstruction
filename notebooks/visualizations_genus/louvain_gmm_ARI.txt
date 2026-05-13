@@ -1,0 +1,1 @@
+Adjusted Rand Index (Louvain vs GMM): 0.428408
